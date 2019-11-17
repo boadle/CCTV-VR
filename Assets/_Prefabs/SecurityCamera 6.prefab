@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3658702631596285675}
   - component: {fileID: 777730690504315530}
+  - component: {fileID: 1395297875541550599}
   m_Layer: 0
   m_Name: SecurityCamera 6
   m_TagString: Untagged
@@ -80,6 +81,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1395297875541550599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777730690504315529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221a3e78e9e06da4a8b1fb4354a66b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinZoom: 0.5
+  MaxZoom: 3
+  InitialVerticalAngle: 0
+  InitialHorizontalAngle: 0
+  MinVerticalAngle: -45
+  MaxVerticalAngle: 45
+  MinHorizontalAngle: -360
+  MaxHorizontalAngle: 360
 --- !u!1 &777730690693938157
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +115,6 @@ GameObject:
   - component: {fileID: 777730690693938146}
   - component: {fileID: 777730690693938145}
   - component: {fileID: 777730690693938144}
-  - component: {fileID: 777730690693938159}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -197,17 +217,3 @@ MonoBehaviour:
   securityCameraTexture: {fileID: 8400000, guid: eee5091964f6fe740a0ed4d5472d4a4f,
     type: 2}
   securityCamera: {fileID: 777730690693938148}
---- !u!114 &777730690693938159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777730690693938157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf6ab1b853e4e24894d91c4151e42c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnSpeed: 50
-  slower: 0.5

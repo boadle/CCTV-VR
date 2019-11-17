@@ -80,9 +80,10 @@ GameObject:
   - component: {fileID: 7302703568300150790}
   - component: {fileID: 400383336601085248}
   - component: {fileID: 4160601843267614252}
+  - component: {fileID: 4056400746784234633}
   m_Layer: 0
   m_Name: monitor 4
-  m_TagString: Untagged
+  m_TagString: Monitor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,6 +149,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &4056400746784234633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2615646816862851708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf851bd6a8dadc042b7692e77c7c3662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5846079181101445259
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,6 +172,7 @@ GameObject:
   - component: {fileID: 4926569449964474913}
   - component: {fileID: 5766578142539099431}
   - component: {fileID: 3097023767795840081}
+  - component: {fileID: 8898643945219208086}
   m_Layer: 0
   m_Name: Screen
   m_TagString: Untagged
@@ -225,3 +239,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8898643945219208086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846079181101445259}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.81, y: 0.5, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
